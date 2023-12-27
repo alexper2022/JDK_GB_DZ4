@@ -1,11 +1,5 @@
 package org.example;
 
-/*
- Табельный номер
- Номер телефона
- Имя
- Стаж
- */
 public class Employee {
     private int employeeNumber; //  Табельный номер
     private String phone; // Номер телефона

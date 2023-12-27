@@ -30,7 +30,7 @@ public class Employees {
         employees.add(employee);
     }
 
-    // Добавить метод, который ищет сотрудника по стажу (может быть список)
+    // Добавить метод, который возвращает номер телефона сотрудника по имени (может быть список)
     public List<Employee> searchByName(String name) {
         List<Employee> outListEmployees = new ArrayList<>();
         for (Employee e : employees) {
@@ -50,8 +50,7 @@ public class Employees {
         }
         return outListEmployees;
     }
-
-    // Добавить метод, который возвращает номер телефона сотрудника по имени (может быть список)
+    // Добавить метод, который ищет сотрудника по стажу (может быть список)
     public List<Employee> searchByExperience(int experience) {
         List<Employee> outListEmployees = new ArrayList<>();
         for (Employee e : employees) {

@@ -41,6 +41,7 @@ public class Employees {
         return outListEmployees;
     }
 
+    // поиск по номеру телефона сотрудника
     public List<Employee> searchByPhone(String phone) {
         List<Employee> outListEmployees = new ArrayList<>();
         for (Employee e : employees) {
@@ -50,6 +51,7 @@ public class Employees {
         }
         return outListEmployees;
     }
+
     // Добавить метод, который ищет сотрудника по стажу (может быть список)
     public List<Employee> searchByExperience(int experience) {
         List<Employee> outListEmployees = new ArrayList<>();

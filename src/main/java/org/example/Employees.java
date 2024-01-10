@@ -34,7 +34,7 @@ public class Employees {
     public List<Employee> searchByName(String name) {
         List<Employee> outListEmployees = new ArrayList<>();
         for (Employee e : employees) {
-            if (e.getName() == name) {
+            if (e.getName().equals(name)) {
                 outListEmployees.add(e);
             }
         }
